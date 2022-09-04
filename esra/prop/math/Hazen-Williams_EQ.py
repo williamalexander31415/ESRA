@@ -17,5 +17,5 @@ Lf1 = Lf/12  # convert to ft
 # Pressure drop operation
 Plossf = 4.53*Lf1*(((fuelFlowRategpm/C)**1.852) / (Df**4.857))
 Plossl = 4.53*Ll1*(((LoxFlowRategpm/C)**1.852) / (Dl**4.857))
-print(str(Plossf) + "psi on fuel")
-print(str(Plossl) + "psi on lox")
+print(str(Plossf) + "psi on fuel tubing")
+print(str(Plossl) + "psi on lox tubing")
